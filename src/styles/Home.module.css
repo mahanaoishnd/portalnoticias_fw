@@ -4,7 +4,7 @@
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
 
   --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
+  --button-secondary-hover: #e6f2ec;
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
@@ -14,7 +14,6 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
-  background-color: #e6f2ec;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -122,8 +121,7 @@ a.secondary {
   }
 
   .footer a:hover {
-color: #2b2e2d;
-  }
+  
 }
 
 @media (max-width: 600px) {
